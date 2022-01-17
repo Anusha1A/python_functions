@@ -1,0 +1,14 @@
+def letters_digits(s):
+	d=l=0
+	for c in s:
+    		if c.isdigit():
+        			d=d+1
+    		elif c.isalpha():
+        			l=l+1
+    		else:
+        			pass
+	print("Letters", l)
+	print("Digits", d)
+s = input("Enter a string")
+letters_digits(s)
+
